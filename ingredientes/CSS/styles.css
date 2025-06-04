@@ -171,23 +171,25 @@ body {
 
 
 .apply-button {
-  background-color: #ffffff54; 
-  color: #032c0fd5; 
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  padding: 10px 30px;
-  border: none; 
-  border-radius: 30px; 
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    background-color: #ffffff54;
+    color: #032c0fd5;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-
 .apply-button:hover {
-  background-color: #ffffff; 
-  transform: scale(1.05); 
+    background-color: #ffffff;
+    transform: scale(1.05);
 }
 
 
