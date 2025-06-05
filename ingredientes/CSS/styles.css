@@ -92,8 +92,8 @@ body {
   z-index: 2;
   top: 5px; 
   transform: translateY(10px);
-    overflow: visible; /* Permite que se muestren los elementos */
-  z-index: 10; /* Garantiza que el contenido esté al frente */
+    overflow: visible; 
+  z-index: 10; 
   
 }
 
@@ -124,17 +124,17 @@ body {
   position: relative; /* Permite controlar la posición del contenido */
   padding-left: 20px; /* Espacio para las viñetas */
   margin: 5px 0; /* Espacio entre los ítems */
-  line-height: 1; /* Ajusta la altura de línea */
+  line-height: 1; 
   color: white; /* Asegura la visibilidad del texto */
   text-align: center; /* Centra el texto */
 }
 
 .carousel-info ul li::before {
-  content: "•"; /* Define manualmente el bullet como un círculo */
-  position: absolute; /* Posiciona el bullet */
-  left: 0; /* Alinea el bullet al inicio del contenedor */
-  color: rgba(255, 255, 255, 0); /* Asegura que el bullet sea visible */
-  font-size: 1em; /* Ajusta el tamaño del bullet */
+  content: "•"; 
+  position: absolute;
+  left: 0; 
+  color: rgba(255, 255, 255, 0);
+  font-size: 1em;
 }
 
 
@@ -171,27 +171,30 @@ body {
 
 
 .apply-button {
-    display: inline-block;
-    background-color: #ffffff54;
-    color: #032c0fd5;
-    font-family: "Lato", sans-serif;
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.2s ease;
+  position: fixed; 
+  bottom: 70px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  background-color: #ffffff75;
+  color: #0a5e07;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none; 
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
-.apply-button:hover {
-    background-color: #ffffff;
-    transform: scale(1.05);
+.apply-button:active {
+  background-color: white; 
+  color:#0a5e07; 
+  transform: scale(0.95); 
 }
-
 
 
 
