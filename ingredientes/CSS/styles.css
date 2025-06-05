@@ -170,12 +170,13 @@ body {
 }
 
 
+
 .apply-button {
   position: fixed; /* Fija el botón en la ventana */
   bottom: 80px; /* Espaciado desde la parte inferior */
   left: 50%; /* Centra horizontalmente */
   transform: translateX(-50%); /* Mantiene el botón centrado */
-  background-color: #ffffff7a; /* Color inicial */
+  background-color: #ffffffb0; /* Color inicial */
   color: #0a5e07; /* Color inicial del texto */
   font-family: "Lato", sans-serif;
   font-weight: 600;
@@ -194,6 +195,7 @@ body {
   background-color: white; /* Cambia a blanco al presionar */
   color: #0a5e07; /* Cambia el texto a negro */
 }
+
 
 
 
